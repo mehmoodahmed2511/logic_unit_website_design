@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+Navbar{
+        color:white;
+}
+Link{
+    font-style: none;
+    padding: 10px 15px;
+    margin:10px;
+    color:rgb(61, 61, 61)
+}
+Link:hover{
+    color:rgb(95, 175, 45)
+}
+#dots div{
+    height:5px;
+    width:5px;
+    border-bottom: 50%;
+    border:2px solid white;
+    margin:5px;
+}
